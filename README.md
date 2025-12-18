@@ -306,6 +306,7 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 * [Google ML Kit](https://developers.googleblog.com/) - A mobile SDK that brings Google's machine learning to Android and iOS apps.
 * [Caffe 2](https://caffe2.ai/) - A deep learning framework developed by Facebook.
 * [Microsoft CNTK](https://learn.microsoft.com/en-us/cognitive-toolkit/) - A deep learning framework known for its efficiency at scale.
+* [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Production-ready Multi-AI Agents framework with self-reflection, 100+ LLM support, MCP integration, and agentic workflows.
 
 **[⬆ back to top](#contents)**
 
