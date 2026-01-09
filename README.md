@@ -32,19 +32,47 @@ Created by [NatNew](https://github.com/natnew) and [Contributors](https://github
 
 ## Contents
 
+## Contents
+
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [What is Generative AI?](#what-is-generative-ai)
+- **Building & Development**
+  - [Frameworks and Models](#frameworks-and-models)
+  - [Agent Frameworks & Orchestration](#agent-frameworks--orchestration)
+  - [Agent Building Platforms](#agent-building-platforms)
+  - [RAG & Retrieval](#rag--retrieval)
+  - [Command Line Tools](#command-line-tools)
+  - [AI-Native IDEs & Code Editors](#ai-native-ides--code-editors)
+  - [Code Generators](#code-generators)
+- **Safety, Security & Governance**
+  - [Safety, Alignment & Guardrails](#safety-alignment--guardrails)
+  - [Evaluation Frameworks](#evaluation-frameworks)
+  - [Observability & Tracing](#observability--tracing)
+  - [AI Safety & Red Teaming](#ai-safety--red-teaming)
+  - [Regulations & Policy](#regulations--policy)
+  - [Best Practices](#best-practices)
+- **Applications**
+  - [Writing and Content Creation](#writing-and-content-creation)
+  - [Image Design](#image-design)
+  - [Video](#video)
+  - [Audio & Music](#audio--music)
+  - [Multimodal Models](#multimodal-models)
+- **Learning & Research**
+  - [Learning Platforms](#learning-platforms)
+  - [Educational Resources](#educational-resources)
+  - [Books](#books)
+  - [Papers](#papers)
+  - [Podcasts](#podcasts)
+  - [Playbooks & Reference Architectures](#playbooks--reference-architectures)
+  - [People to Follow](#people-to-follow)
+- **Resources**
+  - [Articles](#articles)
+  - [Newsletters](#newsletters)
+  - [GitHub Repositories](#github-repositories)
+  - [Cybersecurity & OSINT](#cybersecurity--osint)
 - [Featured Projects](#featured-projects)
-- [Interactive Experiences](#interactive-experiences)
-- [Educational Resources](#educational-resources)
-- [APIs and Frameworks](#apis-and-frameworks)
 - [Community Contributions](#community-contributions)
-- [Art and Media Gallery](#art-and-media-gallery)
-- [Discussions and Support](#discussions-and-support)
-- [Additional Resources](#additional-resources)
-- [Infographics](#infographics)
-- [Awesome List](#awesome-generative-ai-list)
 
 ---
 
@@ -183,6 +211,63 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 
 ![](https://github.com/natnew/Awesome-Generative-AI/blob/main/image/Awesome-Generative-AI.png)
 
+##### Agent Building Platforms
+
+Platforms for building, deploying, and managing AI agents at scale.
+
+| Platform | Provider | Best For | Key Features |
+|----------|----------|----------|--------------|
+| [Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio) | Microsoft | Enterprise agents | Low-code, M365 integration, multi-agent orchestration |
+| [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) | OpenAI | Custom GPT agents | Code interpreter, retrieval, function calling |
+| [Google Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder) | Google | Enterprise search & agents | Grounding, RAG, Google Cloud integration |
+| [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) | AWS | AWS-integrated agents | Knowledge bases, action groups, guardrails |
+| [Azure AI Agent Service](https://azure.microsoft.com/en-us/products/ai-services/ai-agent-service) | Microsoft | Azure-native agents | Enterprise security, Azure integration |
+| [Salesforce Agentforce](https://www.salesforce.com/agentforce/) | Salesforce | CRM agents | Sales, service, marketing automation |
+| [LangGraph Platform](https://www.langchain.com/langgraph-platform) | LangChain | Custom agent workflows | Stateful graphs, human-in-loop, LangSmith |
+| [Relevance AI](https://relevanceai.com/) | Relevance AI | No-code agents | Visual builder, tool library |
+| [Voiceflow](https://www.voiceflow.com/) | Voiceflow | Conversational agents | Visual design, multi-channel |
+| [Botpress](https://botpress.com/) | Botpress | Open-source agents | Self-hostable, visual flow builder |
+
+**Microsoft Copilot Ecosystem Clarification:**
+
+| Product | What It Is | Target User |
+|---------|------------|-------------|
+| **Microsoft Copilot** (consumer) | ChatGPT-like assistant | General public |
+| **Microsoft 365 Copilot** | AI in Word, Excel, Teams, etc. | Enterprise users |
+| **Microsoft Copilot Studio** | Platform for building custom agents | Developers, makers |
+| **GitHub Copilot** | AI code completion | Developers |
+| **Copilot+ PC** | Hardware with local AI | Consumers |
+
+**[⬆ back to top](#contents)**
+
+##### AI-Native IDEs & Code Editors
+
+Development environments with deeply integrated AI assistance.
+
+| IDE | Description | AI Features | Pricing |
+|-----|-------------|-------------|---------|
+| [Cursor](https://cursor.sh/) | VS Code fork with native AI | Tab completion, chat, codebase Q&A, agent mode | Free tier available |
+| [Windsurf](https://codeium.com/windsurf) | AI-native IDE by Codeium | Flows, cascades, multi-file edits | Free tier available |
+| [Zed](https://zed.dev/) | High-performance collaborative editor | AI assistant, inline edits | Free (open source) |
+| [JetBrains AI Assistant](https://www.jetbrains.com/ai/) | AI in IntelliJ ecosystem | Code completion, chat, refactoring | Subscription |
+| [Visual Studio + Copilot](https://visualstudio.microsoft.com/) | Microsoft's full IDE | GitHub Copilot integration | Free tier available |
+| [VS Code + Copilot](https://code.visualstudio.com/) | Lightweight editor | GitHub Copilot, extensions | Free |
+| [Replit](https://replit.com/) | Browser-based IDE | Ghostwriter AI, deployment | Free tier available |
+| [GitHub Codespaces](https://github.com/features/codespaces) | Cloud dev environments | Copilot, pre-configured | Free tier (60 hrs/mo) |
+| [Amazon CodeCatalyst](https://codecatalyst.aws/) | AWS dev environment | CodeWhisperer integration | Free tier available |
+
+**IDE Extensions:**
+
+| Extension | For | Description |
+|-----------|-----|-------------|
+| [GitHub Copilot](https://github.com/features/copilot) | VS Code, JetBrains, Neovim | AI pair programmer |
+| [Codeium](https://codeium.com/) | 70+ editors | Free AI code completion |
+| [Tabnine](https://www.tabnine.com/) | Most editors | Privacy-focused completion |
+| [Continue](https://continue.dev/) | VS Code, JetBrains | Open-source AI assistant |
+| [Cody](https://sourcegraph.com/cody) | VS Code, JetBrains | Codebase-aware assistant |
+
+**[⬆ back to top](#contents)**
+
 ##### AI Safety & Red Teaming
 
 | Tool | Description |
@@ -243,6 +328,95 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 * [Make (formerly Integromat)](https://www.make.com/) - Advanced online automation platform.
 
 **[⬆ back to top](#contents)**
+
+##### Best Practices
+
+Guidelines for building secure, maintainable, and production-ready AI systems.
+
+**Security:**
+
+| Practice | Description | Resources |
+|----------|-------------|-----------|
+| Input validation | Sanitize and validate all user inputs | [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) |
+| Prompt injection defense | Guard against instruction hijacking | [Rebuff](https://github.com/protectai/rebuff), [LLM Guard](https://github.com/protectai/llm-guard) |
+| Output filtering | Scan outputs for sensitive data, harmful content | [Guardrails AI](https://www.guardrailsai.com/), [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) |
+| API key management | Never commit keys, use secrets managers | [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/), [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) |
+| Rate limiting | Protect against abuse and cost overruns | API gateway policies |
+| Audit logging | Track all AI interactions | [LangSmith](https://smith.langchain.com/), [Langfuse](https://langfuse.com/) |
+
+**GitHub Hygiene:**
+
+| Practice | Why | How |
+|----------|-----|-----|
+| `.gitignore` for AI | Exclude model weights, API keys, caches | [gitignore.io](https://www.toptal.com/developers/gitignore) |
+| Pre-commit hooks | Catch secrets before commit | [pre-commit](https://pre-commit.com/), [detect-secrets](https://github.com/Yelp/detect-secrets) |
+| Dependency scanning | Identify vulnerabilities | [Dependabot](https://github.com/dependabot), [Snyk](https://snyk.io/) |
+| Branch protection | Require reviews for main | GitHub branch rules |
+| Signed commits | Verify authorship | GPG signing |
+| CODEOWNERS | Define ownership | `.github/CODEOWNERS` |
+
+**Testing AI Systems:**
+
+| Test Type | Purpose | Tools |
+|-----------|---------|-------|
+| Unit tests | Test individual components | pytest, unittest |
+| Integration tests | Test tool/API interactions | pytest, responses |
+| Evaluation tests | Measure model quality | [DeepEval](https://github.com/confident-ai/deepeval), [RAGAS](https://github.com/explodinggradients/ragas) |
+| Regression tests | Catch quality degradation | [PromptFoo](https://github.com/promptfoo/promptfoo) |
+| Red team tests | Find adversarial failures | [Garak](https://github.com/leondz/garak), [PyRIT](https://github.com/Azure/PyRIT) |
+| Load tests | Verify performance at scale | [Locust](https://locust.io/), [k6](https://k6.io/) |
+
+**Production Checklist:**
+
+- [ ] Implement graceful degradation (fallbacks when AI fails)
+- [ ] Set token/cost budgets per request
+- [ ] Add request timeouts
+- [ ] Cache repeated queries
+- [ ] Monitor latency, errors, costs
+- [ ] Implement circuit breakers for external calls
+- [ ] Log trajectories for debugging
+- [ ] Set up alerts for anomalies
+- [ ] Document failure modes
+- [ ] Plan for model deprecation
+
+**[⬆ back to top](#contents)**
+
+##### Books
+
+Essential reading for understanding generative AI foundations, applications, and implications.
+
+**Foundations & Technical:**
+
+| Title | Author | Focus |
+|-------|--------|-------|
+| [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) | Chip Huyen | Production ML systems design |
+| [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) | Sebastian Raschka | LLM architecture and training |
+| [Natural Language Processing with Transformers](https://www.oreilly.com/library/view/natural-language-processing/9781098136789/) | Lewis Tunstall, Leandro von Werra, Thomas Wolf | Hugging Face ecosystem |
+| [Generative Deep Learning](https://www.oreilly.com/library/view/generative-deep-learning/9781098134174/) | David Foster | VAEs, GANs, Transformers |
+| [Deep Learning](https://www.deeplearningbook.org/) | Ian Goodfellow, Yoshua Bengio, Aaron Courville | Foundational deep learning theory |
+| [Hands-On Large Language Models](https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/) | Jay Alammar, Maarten Grootendorst | Practical LLM applications |
+
+**AI Safety & Ethics:**
+
+| Title | Author | Focus |
+|-------|--------|-------|
+| [Human Compatible](https://www.penguinrandomhouse.com/books/566677/human-compatible-by-stuart-russell/) | Stuart Russell | Value alignment problem |
+| [The Alignment Problem](https://brianchristian.org/the-alignment-problem/) | Brian Christian | Survey of AI safety challenges |
+| [Superintelligence](https://www.nickbostrom.com/) | Nick Bostrom | Long-term AI risks |
+| [AI Ethics](https://mitpress.mit.edu/9780262538190/ai-ethics/) | Mark Coeckelbergh | Philosophical foundations |
+| [Weapons of Math Destruction](https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/) | Cathy O'Neil | Algorithmic bias and harm |
+| [Atlas of AI](https://yalebooks.yale.edu/book/9780300264630/atlas-of-ai/) | Kate Crawford | Political economy of AI |
+
+**Strategy & Business:**
+
+| Title | Author | Focus |
+|-------|--------|-------|
+| [Co-Intelligence](https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/) | Ethan Mollick | Living and working with AI |
+| [The Coming Wave](https://www.the-coming-wave.com/) | Mustafa Suleyman | AI and synthetic biology futures |
+| [AI Superpowers](https://www.aisuperpowers.com/) | Kai-Fu Lee | US-China AI competition |
+| [Prediction Machines](https://www.predictionmachines.ai/) | Ajay Agrawal, Joshua Gans, Avi Goldfarb | Economics of AI |
+
+**[⬆ back to top](#contents)**
   
 ##### Bot Building Tools
 
@@ -254,6 +428,27 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 * [Botsify](https://botsify.com/) - A simple way to build AI chatbots for websites.
 * [Wit.ai](https://wit.ai/) - Voice-activated interface for apps.
 * [Botkit](https://github.com/howdyai/botkit) - A toolkit for making bot applications.
+
+**[⬆ back to top](#contents)**
+
+##### Command Line Tools
+
+CLI tools for interacting with AI models and building AI-powered workflows.
+
+| Tool | Provider | Description | Install |
+|------|----------|-------------|---------|
+| [Claude CLI](https://docs.anthropic.com/en/docs/claude-cli) | Anthropic | Chat with Claude from terminal | `npm install -g @anthropic-ai/claude-cli` |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Google | Interact with Gemini models | `npm install -g @anthropic-ai/gemini-cli` |
+| [OpenAI CLI](https://platform.openai.com/docs/quickstart) | OpenAI | GPT models from command line | `pip install openai` |
+| [Aider](https://github.com/paul-gauthier/aider) | Open Source | AI pair programming in terminal | `pip install aider-chat` |
+| [LangChain CLI](https://python.langchain.com/docs/langchain-cli) | LangChain | Scaffold and manage LangChain projects | `pip install langchain-cli` |
+| [LlamaIndex CLI](https://docs.llamaindex.ai/en/stable/getting_started/installation/) | LlamaIndex | Build and query indices | `pip install llama-index` |
+| [Ollama](https://ollama.ai/) | Ollama | Run open models locally | `curl -fsSL https://ollama.ai/install.sh \| sh` |
+| [Simon Willison's LLM](https://github.com/simonw/llm) | Open Source | Access multiple LLMs from CLI | `pip install llm` |
+| [Fabric](https://github.com/danielmiessler/fabric) | Open Source | AI prompts and patterns library | `pip install fabric-ai` |
+| [sgpt](https://github.com/tbckr/sgpt) | Open Source | Shell-GPT for command line | `pip install shell-gpt` |
+| [Warp AI](https://www.warp.dev/) | Warp | AI-native terminal | Desktop app |
+| [GitHub CLI + Copilot](https://cli.github.com/) | GitHub | Copilot in the terminal | `gh extension install github/gh-copilot` |
 
 **[⬆ back to top](#contents)**
 
@@ -548,6 +743,29 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 
 **[⬆ back to top](#contents)**
 
+##### Learning Platforms
+
+Structured learning paths and certifications for AI skills.
+
+| Platform | Focus | Cost |
+|----------|-------|------|
+| [Google Cloud Skills Boost](https://www.cloudskillsboost.google/) | GCP, Gemini, Vertex AI | Free + paid labs |
+| [Microsoft Learn](https://learn.microsoft.com/en-us/training/) | Azure AI, Copilot, M365 | Free |
+| [DeepLearning.AI](https://www.deeplearning.ai/) | ML/AI courses by Andrew Ng | Free + paid |
+| [Coursera ML/AI Specializations](https://www.coursera.org/browse/data-science/machine-learning) | University courses | Subscription |
+| [fast.ai](https://www.fast.ai/) | Practical deep learning | Free |
+| [Hugging Face Learn](https://huggingface.co/learn) | NLP, Transformers, Diffusion | Free |
+| [OpenAI Academy](https://academy.openai.com/) | Prompt engineering, APIs | Free |
+| [LangChain Academy](https://academy.langchain.com/) | LangChain, LangGraph | Free |
+| [AWS Skill Builder](https://skillbuilder.aws/) | AWS AI services | Free + paid |
+| [DataCamp](https://www.datacamp.com/) | Data science, ML | Subscription |
+| [Kaggle Learn](https://www.kaggle.com/learn) | ML, Python, SQL | Free |
+| [Full Stack LLM Bootcamp](https://fullstackdeeplearning.com/) | Production LLM apps | Free |
+| [Weights & Biases Courses](https://www.wandb.courses/) | MLOps, LLMs | Free |
+| [Cohere LLM University](https://docs.cohere.com/docs/llmu) | NLP fundamentals | Free |
+
+**[⬆ back to top](#contents)**
+
 ##### Machine Learning Deployment and MLOps Tools
 
 * [Kubeflow](https://www.kubeflow.org/) - An open-source project dedicated to making deployments of machine learning workflows on Kubernetes simple, portable, and scalable.
@@ -751,6 +969,56 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 
 **[⬆ back to top](#contents)**
 
+##### Playbooks & Reference Architectures
+
+Official guidance and blueprints from major AI providers.
+
+**Microsoft:**
+
+| Playbook | Focus |
+|----------|-------|
+| [Azure AI Landing Zone](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/) | Enterprise AI architecture |
+| [Responsible AI Playbook](https://www.microsoft.com/en-us/ai/responsible-ai) | Ethics and governance |
+| [Copilot Studio Governance](https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-governance) | Low-code agent governance |
+| [Azure OpenAI Landing Zone](https://github.com/Azure-Samples/azure-openai-landing-zone) | Reference architecture |
+| [AI Red Team Playbook](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming) | Security testing |
+
+**OpenAI:**
+
+| Playbook | Focus |
+|----------|-------|
+| [GPT Best Practices](https://platform.openai.com/docs/guides/prompt-engineering) | Prompt engineering |
+| [Safety Best Practices](https://platform.openai.com/docs/guides/safety-best-practices) | Safe deployments |
+| [Production Best Practices](https://platform.openai.com/docs/guides/production-best-practices) | Scaling guidance |
+| [Moderation Guide](https://platform.openai.com/docs/guides/moderation) | Content filtering |
+
+**Google:**
+
+| Playbook | Focus |
+|----------|-------|
+| [Generative AI on Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/overview) | GCP AI architecture |
+| [Responsible AI Practices](https://ai.google/responsibility/responsible-ai-practices/) | Ethics guidance |
+| [SAIF (Secure AI Framework)](https://safety.google/cybersecurity-advancements/saif/) | Security framework |
+| [Gemini API Best Practices](https://ai.google.dev/gemini-api/docs/best-practices) | API usage |
+
+**AWS:**
+
+| Playbook | Focus |
+|----------|-------|
+| [Generative AI on AWS](https://aws.amazon.com/generative-ai/) | AWS AI architecture |
+| [Bedrock Security](https://docs.aws.amazon.com/bedrock/latest/userguide/security.html) | Bedrock security |
+| [Well-Architected ML Lens](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/machine-learning-lens.html) | ML best practices |
+
+**Community:**
+
+| Playbook | Focus |
+|----------|-------|
+| [LangChain RAG Best Practices](https://python.langchain.com/docs/tutorials/rag/) | RAG architecture |
+| [Anthropic Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) | Claude prompting |
+| [Hugging Face Production Guide](https://huggingface.co/docs/hub/enterprise-hub) | Model deployment |
+
+**[⬆ back to top](#contents)**
+
 ##### Podcasts
 
 * [AI in Business](https://emerj.com/ai-in-business-podcast/) - Focuses on AI applications in business.
@@ -765,6 +1033,60 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 * [Artificial Intelligence with Lex Fridman](https://lexfridman.com/ai/) - Conversations about the nature of intelligence, consciousness, love, and power.
 * [AI for You](https://aiandyou.net/) - A podcast focusing on making AI concepts and uses accessible to everyone.
 * [DataFramed](https://www.datacamp.com/community/podcast) - A DataCamp podcast, focusing on the latest trends and challenges facing the data science community.
+
+**[⬆ back to top](#contents)**
+
+##### People to Follow
+
+Researchers, practitioners, and thought leaders shaping the AI landscape.
+
+**Research & Academia:**
+
+| Person | Affiliation | Focus | Links |
+|--------|-------------|-------|-------|
+| Andrew Ng | DeepLearning.AI, Stanford | ML education, AI applications | [Twitter](https://twitter.com/AndrewYNg), [LinkedIn](https://www.linkedin.com/in/andrewyng/) |
+| Yann LeCun | Meta AI, NYU | Deep learning, self-supervised learning | [Twitter](https://twitter.com/ylecun) |
+| Fei-Fei Li | Stanford HAI | Computer vision, human-centered AI | [Twitter](https://twitter.com/drfeifei) |
+| Demis Hassabis | Google DeepMind | AGI, AlphaFold | [Twitter](https://twitter.com/demaborsa) |
+| Ilya Sutskever | Safe Superintelligence Inc | Alignment, scaling | [Twitter](https://twitter.com/iaborsa) |
+| Geoffrey Hinton | University of Toronto | Neural networks, AI safety | [Website](https://www.cs.toronto.edu/~hinton/) |
+| Yoshua Bengio | Mila, University of Montreal | Deep learning, AI safety | [Twitter](https://twitter.com/yoshaborsa) |
+| Andrej Karpathy | Independent | Neural networks, education | [Twitter](https://twitter.com/karpathy), [YouTube](https://www.youtube.com/@AndrejKarpathy) |
+
+**Industry & Practice:**
+
+| Person | Affiliation | Focus | Links |
+|--------|-------------|-------|-------|
+| Sam Altman | OpenAI | AI products, strategy | [Twitter](https://twitter.com/sama) |
+| Dario Amodei | Anthropic | AI safety, Claude | [Anthropic](https://www.anthropic.com/) |
+| Mustafa Suleyman | Microsoft AI | AI products, ethics | [Twitter](https://twitter.com/mustaborsa) |
+| Satya Nadella | Microsoft | Enterprise AI | [Twitter](https://twitter.com/sataborsa) |
+| Jensen Huang | NVIDIA | AI compute, hardware | [NVIDIA](https://www.nvidia.com/) |
+| Emad Mostaque | Stability AI | Open-source AI | [Twitter](https://twitter.com/EMostaque) |
+
+**Practitioners & Educators:**
+
+| Person | Focus | Links |
+|--------|-------|-------|
+| Chip Huyen | MLOps, production ML | [Twitter](https://twitter.com/chipborsa), [Blog](https://huyenchip.com/) |
+| Simon Willison | LLM tools, Datasette | [Twitter](https://twitter.com/simonaborsa), [Blog](https://simonwillison.net/) |
+| Hamel Husain | LLM engineering | [Twitter](https://twitter.com/hamelhborsa), [Blog](https://hamel.dev/) |
+| Eugene Yan | ML systems, RecSys | [Twitter](https://twitter.com/eugeneaborsa), [Blog](https://eugeneyan.com/) |
+| Lilian Weng | OpenAI, ML research | [Blog](https://lilianweng.github.io/) |
+| Jay Alammar | LLM visualization | [Blog](https://jalammar.github.io/) |
+| Sebastian Raschka | ML education | [Twitter](https://twitter.com/rasaborsa), [Blog](https://sebastianraschka.com/) |
+| Harrison Chase | LangChain | [Twitter](https://twitter.com/hwchase17) |
+| Jerry Liu | LlamaIndex | [Twitter](https://twitter.com/jerryjliu0) |
+
+**AI Safety & Ethics:**
+
+| Person | Focus | Links |
+|--------|-------|-------|
+| Stuart Russell | Value alignment | [Website](https://people.eecs.berkeley.edu/~russell/) |
+| Max Tegmark | AI existential risk | [Twitter](https://twitter.com/tegmark) |
+| Timnit Gebru | AI ethics, bias | [Twitter](https://twitter.com/timnitGebru) |
+| Joy Buolamwini | Algorithmic justice | [Twitter](https://twitter.com/jovialjoy) |
+| Rumman Chowdhury | Responsible AI | [Twitter](https://twitter.com/raborsa) |
 
 **[⬆ back to top](#contents)**
 
@@ -841,6 +1163,60 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 | [FAISS](https://github.com/facebookresearch/faiss) | Library | Facebook's efficient similarity search |
 | [Cohere Rerank](https://cohere.com/rerank) | API | Neural reranking for search results |
 | [Unstructured](https://unstructured.io/) | Preprocessing | Document parsing and chunking |
+
+**[⬆ back to top](#contents)**
+
+##### Regulations & Policy
+
+AI governance frameworks and regulations by jurisdiction.
+
+**European Union:**
+
+| Regulation | Status | Key Points |
+|------------|--------|------------|
+| [EU AI Act](https://artificialintelligenceact.eu/) | In force (2024) | Risk-based classification, prohibited uses, conformity assessments |
+| [GDPR](https://gdpr.eu/) | In force | Data protection, automated decision-making rights |
+| [AI Liability Directive](https://ec.europa.eu/info/law/better-regulation/) | Proposed | Fault-based liability for AI systems |
+
+**United Kingdom:**
+
+| Regulation | Status | Key Points |
+|------------|--------|------------|
+| [AI Safety Institute](https://www.gov.uk/government/organisations/ai-safety-institute) | Active | Pre-deployment testing, safety research |
+| [UK AI Regulation (Pro-Innovation)](https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach) | Framework | Sector-specific, principles-based |
+| [ICO AI Guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/) | Guidance | Data protection in AI |
+
+**United States:**
+
+| Regulation | Status | Key Points |
+|------------|--------|------------|
+| [Executive Order on AI (14110)](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/) | In force (2023) | Safety standards, red-teaming, watermarking |
+| [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | Published | Risk management guidance |
+| [State AI Laws](https://www.ncsl.org/technology-and-communication/artificial-intelligence-2024-legislation) | Various | Colorado, California, others |
+
+**China:**
+
+| Regulation | Status | Key Points |
+|------------|--------|------------|
+| [Generative AI Measures](http://www.cac.gov.cn/) | In force (2023) | Content moderation, training data requirements |
+| [Algorithm Recommendation Rules](http://www.cac.gov.cn/) | In force (2022) | Algorithmic transparency |
+| [Deep Synthesis Provisions](http://www.cac.gov.cn/) | In force (2023) | Deepfake labeling |
+
+**International Standards:**
+
+| Standard | Organization | Focus |
+|----------|--------------|-------|
+| [ISO/IEC 42001](https://www.iso.org/standard/81230.html) | ISO | AI management system |
+| [ISO/IEC 23894](https://www.iso.org/standard/77304.html) | ISO | AI risk management |
+| [IEEE 7000](https://ethicsinaction.ieee.org/) | IEEE | Ethical system design |
+| [OECD AI Principles](https://oecd.ai/en/ai-principles) | OECD | International guidelines |
+
+**Tracking Resources:**
+
+* [AI Policy Observatory (OECD)](https://oecd.ai/) - Global AI policy tracker.
+* [Stanford HAI Policy](https://hai.stanford.edu/policy) - AI policy research.
+* [Brookings AI Governance](https://www.brookings.edu/topic/artificial-intelligence/) - Policy analysis.
+* [Future of Life Institute Policy](https://futureoflife.org/cause-area/artificial-intelligence/) - AI governance advocacy.
 
 **[⬆ back to top](#contents)**
 
