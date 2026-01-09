@@ -107,17 +107,32 @@ Experience AI like never before with our interactive demos. Play around with AI 
 
 ## Educational Resources
 
-[↑ Back to top](#contents)
+* [OpenAI Academy](https://academy.openai.com/) - Official OpenAI learning platform.
+* [DeepLearning.AI Courses](https://www.deeplearning.ai/) - AI and ML courses by Andrew Ng.
+* [Lycee AI](https://www.lycee.ai/) - AI learning platform.
+* [Copilot Studio Agent Academy](https://aka.ms/copilotstudioagentacademy) - Microsoft's Copilot Studio training.
+* [LangChain Academy](https://academy.langchain.com/) - Deep Agents with LangGraph course.
+* [Google DeepMind: AI Research Foundations](https://www.cloudskillsboost.google/) - Google's AI research learning.
+* [Azure AI Foundry Learning](https://learn.microsoft.com/en-us/azure/ai-services/) - Microsoft Azure AI training.
+* [TogetherAI Technical Sessions](https://www.together.ai/) - Fine-tuning LLMs series.
+* [Founderz Online Business School](https://founderz.com/) - AI business education.
+* [FourthRev Circle](https://www.fourthrev.com/) - AI content discussions and courses.
+
 
 Whether you're a beginner or an advanced learner, our collection of tutorials, guides, and resources will help you deepen your understanding of generative AI.
 
 [Learn More](LINK_TO_EDUCATIONAL_RESOURCES.md)
+
+[↑ Back to top](#contents)
+
+
 
 ## Community Contributions
 
 [↑ Back to top](#contents)
 
 Your creativity can inspire many! Learn how you can contribute to this repository, and check out the amazing work done by our community.
+
 
 [Contribute Now](LINK_TO_CONTRIBUTION_GUIDELINES.md)
 
@@ -168,6 +183,23 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 
 ![](https://github.com/natnew/Awesome-Generative-AI/blob/main/image/Awesome-Generative-AI.png)
 
+##### AI Safety & Red Teaming
+
+| Tool | Description |
+| --- | --- |
+| [PyRIT](https://github.com/Azure/PyRIT) | Microsoft's Python Risk Identification Tool for generative AI |
+| [Garak](https://github.com/leondz/garak) | LLM vulnerability scanner |
+| [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) | Python library for ML security - evasion, poisoning, extraction |
+| [AI Village CTF](https://aivillage.org/) | Capture the flag challenges at DEFCON |
+| [SAIF](https://safety.google/ai-framework/) | Google's guide to Secure AI Framework |
+| [TrojAI Security](https://www.youtube.com/@TrojAI-Security) | AI security research channel |
+| [AVID](https://avidml.org/) | AI Vulnerability Database |
+| [NIST AI](https://www.nist.gov/artificial-intelligence) | NIST AI risk management framework |
+| [AI Security Institute (AISI)](https://www.gov.uk/government/organisations/ai-safety-institute) | UK government AI safety research |
+| [PortSwigger Web Security](https://portswigger.net/web-security) | Web application security training |
+
+**[⬆ back to top](#contents)**
+
 ##### Articles
 
 * [AI Trends](https://aitrends.com/) - Offers insights on the latest developments in AI.
@@ -178,6 +210,14 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 * [Harvard Business Review  AI Section](https://hbr.org/) - Offers insights on AI's impact on business.
 * [AI Magazine](https://aaai.org/) - Published by the Association for the Advancement of Artificial Intelligence.
 * [ScienceDaily (Artificial Intelligence News)](https://www.sciencedaily.com/) - Covers the latest research news in AI.
+* [Anthropic Research Blog](https://www.anthropic.com/research) - Model welfare, Constitutional AI, and alignment research.
+* [Microsoft AI Blog](https://blogs.microsoft.com/ai/) - Azure AI, Copilot Studio, and enterprise AI updates.
+* [OpenAI Blog](https://openai.com/blog) - ChatGPT enterprise, GPT updates, and research.
+* [NVIDIA AI Blog](https://blogs.nvidia.com/blog/category/deep-learning/) - Physical AI, robotics, and compute infrastructure.
+* [Google DeepMind Blog](https://deepmind.google/discover/blog/) - Gemini, robotics, and research breakthroughs.
+* [Thinking Machines Lab](https://thinkingmachineslab.com/) - AI research and modular manifolds.
+* [Y Combinator: Do Things That Don't Scale](https://paulgraham.com/ds.html) - Building AI startups.
+* [Wiley AI Principles](https://www.wiley.com/ai) - AI ethics and principles in publishing.
   
 **[↑ Back to top](#contents)**
   
@@ -294,6 +334,28 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 
 **[⬆ back to top](#contents)**
 
+##### Cybersecurity & OSINT Tools
+
+**Frameworks & Databases:**
+* [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) - Adversary tactics and techniques visualization.
+* [Exploit Database](https://www.exploit-db.com/) - Archive of exploits for penetration testers.
+* [OSINT Framework](https://osintframework.com/) - Collection of OSINT tools organized by category.
+* [Unified Kill Chain](https://www.unifiedkillchain.com/) - Comprehensive attack framework.
+
+**Tools:**
+* [Metasploit](https://www.metasploit.com/) - Penetration testing framework.
+* [Wireshark](https://www.wireshark.org/) - Network protocol analyzer.
+* [ExifTool](https://exiftool.org/) - Metadata extraction tool.
+* [Bellingcat's Online Investigation Toolkit](https://www.bellingcat.com/resources/) - OSINT investigation resources.
+
+**Learning:**
+* [IntelTechniques](https://inteltechniques.com/) - OSINT training by Michael Bazzell.
+* [NahamSec](https://www.nahamsec.com/) - Bug bounty and web security.
+* [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database) - Google dorks for reconnaissance.
+* [TomNomNom Tools](https://github.com/tomnomnom) - Security tools (anew, gf, etc.).
+
+**[⬆ back to top](#contents)**
+
 ##### Data Science and Analysis Tools
 
 * [MATLAB](https://www.mathworks.com/products/matlab.html) - A high-level language and interactive environment for numerical computation, visualization, and programming.
@@ -377,7 +439,7 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 
 **[⬆ back to top](#contents)**
 
-##### Agent Frameworks & Orchestration 
+##### Frameworks & Orchestration 
 
 | Tool | Description | Key Features |
 |------|-------------|--------------|
@@ -390,6 +452,20 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | LLM integration SDK | Plugins, planners, memory |
 | [Haystack](https://haystack.deepset.ai/) | End-to-end NLP framework | Pipelines, document stores |
 | [Pydantic AI](https://ai.pydantic.dev/) | Type-safe agent framework | Model-agnostic, structured outputs |
+
+**[⬆ back to top](#contents)**
+
+##### GitHub Repositories & Code Examples
+
+* [microsoft/CopilotStudioSamples](https://github.com/microsoft/CopilotStudioSamples) - Official Copilot Studio examples and templates.
+* [microsoft/mcs-labs](https://github.com/microsoft/mcs-labs) - Microsoft Labs experiments.
+* [google-gemini/cookbook](https://github.com/google-gemini/cookbook) - Examples and guides for the Gemini API.
+* [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) - All-in-one RAG framework.
+* [natnew/MoA](https://github.com/natnew/MoA) - Mixture-of-Agents implementation (65.1% on AlpacaEval).
+* [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) - UI components for AI assistants.
+* [github/awesome-copilot](https://github.com/github/awesome-copilot) - Community instructions and prompts for GitHub Copilot.
+* [MicrosoftDocs/mcp](https://github.com/MicrosoftDocs/mcp) - Microsoft MCP documentation.
+* [joonspk-research/genagents](https://github.com/joonspk-research/genagents) - Generative agents research code.
 
 **[⬆ back to top](#contents)**
 
@@ -541,11 +617,29 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 | [AlphaTensor](https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/?_gl=1*184ezsd*_up*MQ..*_ga*MTU0ODc3NDE4LjE3MDYwNDY0MTY.*_ga_LS8HVHCNQ0*MTcwNjA0NjQxNS4xLjAuMTcwNjA0NzM2MC4wLjAuMA..) | AlphaTensor, the first artificial intelligence (AI) system for discovering novel, efficient, and provably correct algorithms for fundamental tasks such as matrix multiplication. |
 | [AlphaStar](https://deepmind.google/discover/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/?_gl=1*184ezsd*_up*MQ..*_ga*MTU0ODc3NDE4LjE3MDYwNDY0MTY.*_ga_LS8HVHCNQ0*MTcwNjA0NjQxNS4xLjAuMTcwNjA0NzM2MC4wLjAuMA..) | AlphaStar is the first AI to reach the top league of a widely popular esport without any game restrictions.|
 | [Gemini](https://deepmind.google/technologies/gemini/?_gl=1*19sdu58*_up*MQ..*_ga*MTU0ODc3NDE4LjE3MDYwNDY0MTY.*_ga_LS8HVHCNQ0*MTcwNjA0NjQxNS4xLjAuMTcwNjA0NzM2MC4wLjAuMA..#introduction) | Gemini is built from the ground up for multimodality — reasoning seamlessly across text, images, video, audio, and code.|
-| []() | |
-| []() | |
-| []() | |
-| []() | |
-| []() | |
+| [Unsloth](https://unsloth.ai/) | Fast fine-tuning for LLMs, 2x faster with 60% less memory |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | Open-source LLM-friendly web crawler and scraper |
+| [ExcaliDraw](https://excalidraw.com/) | Virtual whiteboard for hand-drawn diagrams |
+| [Foldify](https://foldify.ai/) | Protein folding prediction tool |
+| [Adaline.AI](https://www.adaline.ai/) | AI workflow automation |
+| [CopilotKit](https://www.copilotkit.ai/) | Open-source toolkit for building AI copilots |
+| [AG-UI Protocol](https://github.com/ag-ui-protocol/ag-ui) | Agent-User Interaction Protocol for frontend apps |
+| [RAG-Anything](https://github.com/HKUDS/RAG-Anything) | All-in-one RAG framework |
+| [GenAgents](https://github.com/joonspk-research/genagents) | Generative agents research implementation |
+| [Climate TRACE](https://climatetrace.org/) | AI-powered emissions tracking |
+| [Veo 3/4](https://deepmind.google/technologies/veo/) | Google's AI video generation |
+| [Hailuo AI](https://hailuoai.video/) | Cinematic quality video generation by MiniMax |
+| [BasedLabs.ai](https://www.basedlabs.ai/) | AI image and video creator |
+| [Jupyter Agent 2](https://huggingface.co/spaces/lvwerra/jupyter-agent-2) | AI agent for Jupyter notebooks |
+| [prompts.chat](https://prompts.chat/) | Awesome AI prompts library |
+| [AGENTS.md](https://github.com/agents-md/agents-md) | Open source agent documentation tool |
+| [Microsoft Fabric Toolbox](https://github.com/microsoft/fabric-toolbox) | Tools and accelerators for Microsoft Fabric |
+| [Copilot Studio Kit](https://aka.ms/copilotstudiokit) | Microsoft Copilot Studio accelerator kit |
+| [LlamaIndex](https://www.llamaindex.ai/) | Build knowledge assistants over enterprise data |
+| [vLLM](https://vllm.ai/) | High-throughput LLM serving with Qwen3-Next support |
+| [Weavy](https://www.weavy.com/) | AI-powered design workflows |
+| [CoreML for YOLO](https://docs.ultralytics.com/) | CoreML export for YOLO11 models |
+| [Qwen](https://qwenlm.github.io/) | Qwen 3-Next open model |
 
 
 **[⬆ back to top](#contents)**
@@ -571,6 +665,13 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 * [Jukebox by OpenAI](https://openai.com/) - Generates music and singing in various styles based on user input.
 * [Soundraw](https://soundraw.io/) - AI tool for creating royalty-free music.
 * [Evoke](https://evokemusic.ai/) - AI-powered music library with a diverse collection.
+
+**[⬆ back to top](#contents)**
+
+##### Newsletters
+
+* [The Batch by DeepLearning.AI](https://www.deeplearning.ai/the-batch/) - Weekly AI news and insights.
+* [AI Engineering Newsletter](https://www.aiengineering.com/) - Technical AI engineering updates.
 
 **[⬆ back to top](#contents)**
 
@@ -641,6 +742,12 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 * [Reflexion: an autonomous agent with dynamic memory and self-reflection (2023)](https://arxiv.org/abs/2303.11366) - Retrying tasks with memory of prior failures improves subsequent performance.
 * [Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP (2023)](https://arxiv.org/abs/2212.14024) - Composing retrieval and language models for knowledge-intensive NLP (2023)
 * [Improving Factuality and Reasoning in Language Models through Multiagent Debate (2023)](https://arxiv.org/abs/2305.14325) - Generating debates between a few ChatGPT agents over a few rounds improves scores on various benchmarks. Math word problem scores rise from 77% to 85%.
+* [Why Language Models Hallucinate](https://openai.com/research/) - OpenAI research on hallucination mechanisms.
+* [A Survey of Self-Evolving Agents](https://arxiv.org/abs/2507.21046) - Path to Artificial Super Intelligence.
+* [Vending-Bench](https://arxiv.org/abs/2502.15840) - Benchmark for long-term coherence of autonomous agents.
+* [Reasoning by Superposition](https://arxiv.org/abs/2505.12514) - Chain of continuous thought theoretical perspective.
+* [Gemini Robotics 1.5](https://arxiv.org/abs/2510.03342) - Embodied reasoning, thinking, and motion transfer.
+* [Weight Transfer for RL Post-Training](https://research.perplexity.ai/) - Training efficiency research.
 
 **[⬆ back to top](#contents)**
 
@@ -769,6 +876,19 @@ Explore more! Here's a list of additional resources, tools, communities, and rea
 * [Moses](https://www.statmt.org/moses/) - Moses: A statistical machine translation system.
 * [Polyglot](https://github.com/aboSamoor/polyglot) - Polyglot: Natural language pipeline that supports multilingual applications.
 * [UIMA](https://uima.apache.org/) - UIMA: Framework for analysis and annotation of unstructured content.
+
+**[⬆ back to top](#contents)**
+
+##### Video Content & Talks
+
+* [Microsoft Build 2025 Keynote](https://www.youtube.com/watch?v=...) - Satya Nadella opening keynote.
+* [Stanford Webinar: Agentic AI](https://www.youtube.com/watch?v=...) - Progression of language model usage.
+* [The Turing Lectures](https://www.youtube.com/c/TheTuringInstitute) - AI environmental implications, DeepSeek R1.
+* [Yann LeCun Talks](https://drive.google.com/) - PAISS and NYU CDS presentations.
+* [Eric Schmidt on AI](https://www.youtube.com/watch?v=...) - Future of AI and America.
+* [Sora 2 Introduction](https://openai.com/sora) - OpenAI video generation.
+* [WireSharkFest](https://www.youtube.com/@WireSharkFest) - Network analysis tutorials.
+* [NahamSec](https://www.nahamsec.com/) - Bug bounty and security content.
 
 **[⬆ back to top](#contents)**
 
